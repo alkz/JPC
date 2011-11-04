@@ -1,0 +1,19 @@
+
+JPC CHANGELOG
+
+0.1.2 (Tue Jan 18 2011)
+  + New type of section: Internal LInk Section
+  = Fixed a bug in Link Section
+  = Fixed graphics bugs
+  = Fixed some bugs in deleting sections
+
+0.1.1 (Wed Apr 14 2010)
+  = Fixed some bugs about theming engine.
+  = Fixed little big in file admin/menu.php
+
+0.1 (Wed Mar 31 2010)
+  + Implemented content manager.
+  + Implemented multi-language.
+  + Implemented theming engine.
+  + Implemented Security log in.
+  + Designed the modular design.

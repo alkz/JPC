@@ -1,0 +1,88 @@
+/* This is the default theme of JPC */
+
+body {
+    width: 100%;
+    background-color: #000000;
+    font-family: Courier New, Monospace, Terminus;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    background-color: #000000;
+    font-family: Courier New, Monospace, Terminus;
+    color: #ffffff;
+    font-size: 11px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#container {
+    background-color: #000000;
+    border: solid 1px #000088;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 780px;
+    height: 600px;
+    padding: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: justify;
+}
+#head {
+    background-color: #000000;
+    width: 760px;
+    height: 17px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 6px;
+    padding: 5px;
+    text-align: center;
+    border: solid 1px #000088;
+}
+
+#head a {
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+#head a:hover {
+    text-decoration: none;
+    color: #0000ee;
+}
+
+#head div.menu {
+    background-color: #000000;
+    position: relative;
+    border: solid 2px #000088;
+    float: left;
+    margin-right: 5px;
+    text-align: left;
+}
+
+#credits {
+    background-color: #000000;
+    width: 760px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    text-align: right;
+    border: solid 2px #000088;
+    height: 15px;
+    font-size: 10px;
+}
