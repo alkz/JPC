@@ -1,0 +1,40 @@
+JPC(Jargon PHP CMS) is a CMS written in PHP/MySQL, it's very simple but very powerful.
+It supports additional modules, that I'll put into my site and, of course, you can write your own modules.
+
+Here there are some instructions about the installation:
+Simply modify the file "include/config.inc.php" how you prefer and just update all on your website.
+After that run the script "install/install.php" to install JPC, then I advice you to remove the directory "install"
+because it contains even the script "remove.php" that I think you've already understood what it does :).
+
+Which directories will I find?
+Here there's a little description about which directories you will find in the root directoty JPC/.
+
+   admin/
+   Files in this directory are could be acceded only if you are logged in,
+   there are: menus, forms and whatever.
+
+   include/
+   This dir simply contains headers files and config files.
+
+   install/
+   It contains install.php and remove.php.
+
+   langs/
+   It could be obivious, this dir contains languages files, for now
+   english language is the only avaliable.
+
+   modules/
+   Nothing to say, this dir contains other directories with installed
+   modules.
+
+   system/
+   The most important dir, it contains all files that make works JPC.
+
+   themes/
+   In this dir you can add your own theme and simply load it on JPC.
+
+
+About Modules:
+JPC was designed to be a modular CMS and so it supports additional modules, these are contained
+in the directory modules/, I'll write soon a tutorial that explain how to write a JPC module.
+Otherwise if you're unpatient to write a module you may take a look to blog module that I'll release soon.
