@@ -31,10 +31,10 @@
     #####################################################
     class DBInfo
     { 
-        const host = "localhost";  
-        const name = "my_alkz";          
-        const user = "alkz";
-        const pwd = "admin";
+        const host = "";  
+        const name = "";          
+        const user = "";
+        const pwd = "";
     }
 
     
